@@ -1,8 +1,10 @@
-
+import { Launcher } from '../app/Launcher.js';
 
 
 describe('Launcher test suite', ()=>{
+    
     test('initial test', ()=>{
-        expect(true).toBe(true);
-    })
-})
+        const launcher = new Launcher();
+        
+    });
+});
