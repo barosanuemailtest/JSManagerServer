@@ -1,10 +1,10 @@
 {
-  "name": "JSManagerServer",
+  "name": "js-manager-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node src/app/Launcher.js"
   },
   "repository": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/barosanuemailtest/JSManagerServer/issues"
   },
-  "homepage": "https://github.com/barosanuemailtest/JSManagerServer#readme"
+  "homepage": "https://github.com/barosanuemailtest/JSManagerServer#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }
